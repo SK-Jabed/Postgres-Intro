@@ -16,7 +16,6 @@ A trigger is a database object in PostgreSQL (and other database management syst
 -- EXECUTE FUNCTION function_name();
 
 
-
 CREATE Table my_users
 (
     user_name VARCHAR(50),
@@ -34,7 +33,7 @@ CREATE Table deleted_users_audit
     deletedAt TIMESTAMP
 )
 
--- trigger
+-- Trigger
 CREATE or REPLACE Function save_deleted_user()
 RETURNS TRIGGER
 LANGUAGE plpgsql
@@ -46,7 +45,6 @@ $$
         RETURN OLD;
     END
 $$
-
 
 
 CREATE or REPLACE Trigger save_deleted_user_trigger
