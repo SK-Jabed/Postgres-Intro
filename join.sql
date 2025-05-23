@@ -36,7 +36,6 @@ SELECT * FROM post as p
 JOIN "user" u on p.user_id = u.id;
 
 
-
 INSERT INTO post (id, title, user_id) VALUES
 (5,'this is a test post title', NULL);
 
@@ -47,7 +46,6 @@ LEFt OUTER JOIN "user" u on p.user_id = u.id;
 
 SELECT * FROM post as p
 RIGHT OUTER JOIN "user" u on p.user_id = u.id;
-
 
 
 SELECT * FROM post as p
