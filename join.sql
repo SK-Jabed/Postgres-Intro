@@ -12,7 +12,6 @@ CREATE Table post(
 )
 
 
-
 INSERT INTO "user" (username) VALUES
 ('akash'),
 ('batash'),
@@ -24,7 +23,6 @@ INSERT INTO post (title, user_id) VALUES
 ('Batash just shared an amazing recipe! 🍲', 1),
 ('Exploring adventures with Sagor.🌟', 4),
 ('Nodi''s wisdom always leaves me inspired. 📚', 4);
-
 
 DROP Table post;
 DROP Table "user";
