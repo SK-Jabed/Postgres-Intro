@@ -3,9 +3,6 @@
 SELECT * from  employees;
 
 
-
-
-
 EXPLAIN ANALYSE
 SELECT * from employees WHERE emp_no = '10004';
 
