@@ -13,6 +13,9 @@ CREATE Table post(
 
 
 
+
+
+
 INSERT INTO "user" (username) VALUES
 ('akash'),
 ('batash'),
