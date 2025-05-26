@@ -5,6 +5,8 @@ CREATE Table "user"(
     username VARCHAR(25) NOT NULL
 )
 
+
+
 CREATE Table post(
     id SERIAL PRIMARY KEY,
     title text NOT NULL,
