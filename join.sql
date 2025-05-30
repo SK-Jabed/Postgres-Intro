@@ -6,16 +6,11 @@ CREATE Table "user"(
 )
 
 
-
 CREATE Table post(
     id SERIAL PRIMARY KEY,
     title text NOT NULL,
     user_id INTEGER REFERENCES "user"(id)
 )
-
-
-
-
 
 
 INSERT INTO "user" (username) VALUES
