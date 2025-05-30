@@ -16,8 +16,6 @@ A trigger is a database object in PostgreSQL (and other database management syst
 -- EXECUTE FUNCTION function_name();
 
 
-
-
 CREATE Table my_users
 (
     user_name VARCHAR(50),
